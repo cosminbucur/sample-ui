@@ -1,0 +1,14 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <span class="app-title">Sample UI</span>
+        <nav>
+        <ul>
+            <li><button mat-raised-button [routerLink]="['/']" routerLinkActive="active">Home</button></li>
+            <li><button mat-raised-button [routerLink]="['/users']" routerLinkActive="active">Users</button></li>
+            <li><button mat-raised-button [routerLink]="['/new-feature']" routerLinkActive="active">New feature</button></li>
+        </ul>
+        </nav>
+    </mat-toolbar-row>
+</mat-toolbar>
+      
+<router-outlet></router-outlet>
